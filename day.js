@@ -8,7 +8,6 @@ module.exports.getDate=function(){
     return today.toLocaleDateString("en-US",options);
 }
 
-
 module.exports.getDay=function(){
     const today = new Date();
     const options={
